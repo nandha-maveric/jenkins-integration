@@ -10,7 +10,7 @@ public class UserController {
     @RequestMapping("/welcome")
     String welcomeUser() {
         int sonarlintbugCheckUnusedvar = 10;
-        System.out.println("Sonarlint bug check syso.");
+        System.out.println("Sonarlint bug check sys.out.");
         return "Hello World - v3!";
     }
 }
